@@ -1,0 +1,282 @@
+body {
+  padding: 20px;
+} 
+
+p.help {
+font-size: 10px;
+color: gray;
+margin: 0 0 4px;
+}
+
+.form-group {
+margin-top: 40px;
+}
+
+.listing-price p {
+font-size: 16px;
+}
+
+.listing {
+margin-bottom: 30px;
+}
+
+.all-listings {
+padding-top: 20px;
+}
+
+.parent {
+width: 100px;
+}
+
+.listing-title h4 {
+text-transform: capitalize;
+}
+
+.listing-description p {
+font-size: 14px;
+color: gray;
+}
+
+.listing-owner {
+font-size: 12px;
+color: darkgray;
+}
+
+.listing-starting-price p {
+font-size: 11px;
+color: darkgrey;
+}
+
+p.listing-current-price-text {
+font-size: 11px;
+margin-bottom: 0;
+color: gray;
+}
+
+.listing-page-quick-info p {
+margin-bottom: 5px;
+font-size: 12px;
+color: darkgrey;
+}
+.listing-page-quick-info .listing-info-value {
+color: gray;
+}
+.listing-page-quick-info h2 {
+margin-bottom: 20px;
+}
+
+.listing-image-listing img, .listing-image-index img {
+width: 100%;
+height: auto;
+}
+
+@media (min-width: 992px) {
+.listing-image-index img {
+  width: 50%;
+}
+}
+
+.watchlist-section button {
+background: transparent;
+border: 0;
+padding: 0;
+margin: 0;
+}
+.watchlist-section img {
+height: 20px;
+padding-left: 10px;
+margin-bottom: 3px;
+}
+.watchlist-section p {
+text-align: right;
+margin: 0;
+}
+
+.listing-page-bid-section {
+margin-top: 70px;
+}
+.listing-page-bid-section button {
+font-size: 10px;
+background: gray;
+border: rebeccapurple;
+margin-left: 120px;
+}
+
+.errorlist {
+color: red;
+font-size: 12px;
+}
+
+.listing-page-bid-close-section {
+margin-top: 50px;
+}
+.listing-page-bid-close-section button {
+background: #406283;
+border-radius: 10px;
+color: white;
+}
+
+.listing-page-end-result {
+margin-top: 40px;
+}
+
+fieldset.disabled {
+background: white;
+opacity: 0.4;
+}
+
+.listing-closed-info {
+font-size: 12px;
+color: gray;
+}
+
+#comment-form .form-group {
+padding: 0;
+margin: 0 0 10px;
+}
+#comment-form label {
+padding: 0;
+margin: 0;
+}
+
+.type-your-comment {
+margin-top: 50px;
+}
+
+
+.each-comment p {
+color: gray;
+}
+
+body {
+margin: 0;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+background-color: #f7f7f7;
+}
+.navbar {
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+-ms-flex-align: center;
+align-items: center;
+-ms-flex-pack: justify;
+justify-content: space-between;
+padding: 5px;
+}
+
+.topbar{
+background-color: #212529;
+padding: 0;
+}
+
+.topbar .container .row {
+margin:-7px;
+padding:0;
+}
+
+.topbar .container .row .col-md-12 { 
+padding:0;
+}
+
+.topbar p{
+margin:0;
+display:inline-block;
+font-size: 13px;
+color: #f1f6ff;
+}
+
+.topbar p > i{
+margin-right:5px;
+}
+.topbar p:last-child{
+text-align:right;
+} 
+
+header .navbar {
+margin-bottom: 0;
+}
+
+.topbar li.topbar {
+display: inline;
+padding-right: 18px;
+line-height: 52px;
+transition: all .3s linear;
+}
+
+.topbar li.topbar:hover {
+color: #1bbde8;
+}
+
+.topbar ul.info i {
+color: #131313;
+font-style: normal;
+margin-right: 8px;
+display: inline-block;
+position: relative;
+top: 4px;
+}
+
+.topbar ul.info li {
+float: right;
+padding-left: 30px;
+color: #ffffff;
+font-size: 13px;
+line-height: 44px;
+}
+
+.topbar ul.info i span {
+color: #aaa;
+font-size: 13px;
+font-weight: 400;
+line-height: 50px;
+padding-left: 18px;
+}
+
+.waves-effect {
+position: relative;
+cursor: pointer;
+display: inline-block;
+overflow: hidden;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: transparent;
+vertical-align: middle;
+z-index: 1;
+will-change: opacity, transform;
+transition: .3s ease-out;
+color: #fff;
+}
+a {
+color: rgb(80, 79, 79);
+text-decoration: none;
+
+}
+
+
+li {
+list-style-type: none;
+}
+.bg-image-full {
+background-position: center center;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+}
+.bg-dark {
+background-color: #222!important;
+}
+
+.mx-background-top-linear {
+background: -webkit-linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
+background: -webkit-linear-gradient(left, #54d400 48%, #1b1e21 48%);
+background: linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
+}
